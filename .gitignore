@@ -1,0 +1,12 @@
+build/
+console_out
+project/
+target/
+generator_out.json
+Makefrag
+constraints.xdc
+tb.v
+.idea/
+!src/main/resources
+!src/main/scala
+!docs/
