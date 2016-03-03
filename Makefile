@@ -39,6 +39,6 @@ clean_%:
 	rm -rf build/$(patsubst clean_%,%,$@)
 
 clean: clean_asic clean_fpga clean_test
-	rm -rf target project build generator_out.json .compile_flags
+	rm -rf target project build generator_out.json .compile_flags ; find . -name "*~" -type f -delete
 
 .PHONY: fpga asic vlsi test setup_% clean_%
