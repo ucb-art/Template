@@ -1,8 +1,8 @@
 PRJ = FFT
 MEM=--inlineMem
-FIXED = true
-VERILOGTB = false
-VLSI_ROOT = ./build/vlsi/generated-src/
+FIXED ?= true
+VERILOGTB ?= false
+VLSI_ROOT ?= ./build/vlsi/generated-src/
 
 fpga: MEM=--inlineMem
 fpga: clean_fpga setup_fpga vlsi
