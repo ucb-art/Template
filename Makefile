@@ -1,5 +1,5 @@
-PRJ = FFT
-MEM=--inlineMem
+PRJ ?= FFT
+MEM ?=--inlineMem
 FIXED ?= true
 VERILOGTB ?= false
 VLSI_ROOT ?= ./build/vlsi/generated-src/
