@@ -3,4 +3,5 @@ build/
 project/
 target/
 .idea/
-MatlabScratch/
+MatlabScratch/*
+src/main/resources/Matlab/generated/*
